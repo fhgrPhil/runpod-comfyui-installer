@@ -11,6 +11,24 @@ Ein vollständiges Installationsskript für ComfyUI auf RunPod, optimiert für d
 - ✅ **Custom Nodes**: Installiert ComfyUI Manager und Civicomfy
 - ✅ **RunPod-optimiert**: Konfiguriert für externen Zugriff über RunPod
 
+## 🚀 Schnellstart
+
+Kopiere und führe diese Befehle in deinem RunPod Terminal aus:
+
+```bash
+# Wechsle ins workspace Verzeichnis
+cd /workspace
+
+# Lade das Installationsskript herunter
+wget https://raw.githubusercontent.com/fhgrPhil/runpod-comfyui-installer/master/runpod_comfyui_installer.sh
+
+# Mache das Script ausführbar
+chmod +x runpod_comfyui_installer.sh
+
+# Führe die Installation aus
+./runpod_comfyui_installer.sh
+```
+
 ## Installation
 
 ### 1. Script auf RunPod hochladen
